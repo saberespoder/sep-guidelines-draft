@@ -1,0 +1,114 @@
+body {
+	color: #fafafa;
+	min-width: 1200px;
+	background-image: linear-gradient(306deg, #00a15f, #66bb6a);
+}
+
+button.green {
+	color: #fafafa;
+	background-color: #00a15f;
+}
+button.green:hover {
+	background-color: #00695c;
+}
+
+a,
+.link {
+	color: #fafafa;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.header-nav {
+	background-color: #fafafa;
+}
+.header-nav-list {
+	float: right;
+	margin-right: 68px;
+}
+.header-logo {
+    padding: 22px 0;
+}
+
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 760px;
+    min-height: calc(100vh - 88px - 57px);
+    width: 100%;
+}
+
+.form {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 412px;
+	background-color: transparent;
+}
+.form-fields {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.form-field-label {
+    color: #d2cfcd;
+}
+.form-field-input {
+	background-color: transparent;
+	border: solid 1px #d2cfcd;
+	color: #fafafa;
+}
+.form-field-half {
+	width: 48%;
+}
+.form-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-actions-have {
+	width: 300px;
+}
+
+
+footer {
+	padding: 16px 0;
+	height: 57px;
+	background-color: #f3f3f3;
+}
+.footer-logo-wrap {
+	display: inline-block;
+	margin-right: 40px;
+}
+.footer-actions {
+	color: #333333;
+	display: inline-block;
+}
+.footer-actions .caption {
+	color: #333333;
+    margin: 0 13px;
+}
+.footer-actions .caption:hover {
+	color: #00a15f;
+}
+.footer-copy {
+	color: #888b94;
+	text-align: center;
+}
+.footer-copy p {
+    margin-bottom: 8px;
+}
+.footer-up {
+    padding: 10px 0;
+	text-align: center;
+}
+.caret-up-img {
+	display: inline-block;
+	width: 14px;
+}

@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#212121">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&amp;subset=cyrillic-ext,latin-ext" rel="stylesheet">
+
+    <link href="../build/css/main.min.css" rel="stylesheet">
+</head>
+<body>
+	<div style="width:1080px;margin:20px auto 800px;">
+
+		<div style="margin-bottom: 80px;">
+			<div class="display1">Display text 1</div>
+			<div class="display2">Display text 2</div>
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Title 1</h4>
+			<h5>Title 2</h5>
+			<p>Paragraph text (main). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt impedit, dolorem ut! Dignissimos eius itaque perspiciatis veniam, sapiente odit ipsum assumenda qui iure natus asperiores. Cupiditate quisquam, molestias voluptates sint.</p>
+			<p class="p2">Paragraph text 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo doloremque iusto, doloribus cupiditate, eligendi fugit delectus ea nemo blanditiis, molestias distinctio veniam eveniet. Ad iure vel, animi optio perferendis, tempore.</p>
+			<p class="caption">Caption text</p>
+			<!-- <br />
+			<p class="h1">Heading 1</p>
+			<p class="h2">Heading 2</p>
+			<p class="h3">Heading 3</p>
+			<p class="t1">Title 1</p>
+			<p class="t2">Title 2</p> -->
+		</div>
+
+		<h2>Links</h2>
+
+		<div style="margin-bottom: 80px;">
+			<p><a class="link" href="#">Link style</a></p>
+			<p><a class="link-disabled" href="#">Disable link style</a></p>
+			<p><a class="action" href="#">Action button</a></p>
+			<p><a class="action action-next" href="#">Hyperlink with Directional Caret</a></p>
+			<p><a class="action action-next action-disabled" href="#">Hyperlink with Directional Caret Disabled</a></p>
+			<p><a class="action action-prev" href="#">Back</a></p>
+			<p><a class="action action-prev action-disabled" href="#">Back Disabled</a></p>
+		</div>
+
+		<h1>COMPONENTS</h1>
+		<h2>Buttons</h2>
+
+		<div style="margin-bottom: 80px;">
+			<p>
+				<button >Button</button>
+				<button class="button">More text Button</button>
+				<button class="button button-disabled">disabled</button>
+			</p>
+			<p>
+				<button class="button button-bg">Big Button</button>
+				<button class="button button-bg">More text Big Button</button>
+				<button class="button button-bg button-disabled">Disabled</button>
+			</p>
+		</div>
+		
+		<h2>Dropdown buttons</h2>
+		<div style="margin-bottom: 240px;">
+			<div class="dropdown">
+				<input type="hidden" name="user">
+				<div class="dropdown-default">Dropdown</div>
+				<ul class="dropdown-list" style="display:block;">
+					<li class="dropdown-item" data-value="">Option 1</li>
+					<li class="dropdown-item" data-value="">Option 2</li>
+					<li class="dropdown-item dropdown-item-disabled" data-value="">Option 3 Diasabled</li>
+					<li class="dropdown-item" data-value="">Option 4</li>
+					<li class="dropdown-item" data-value="">Option 5</li>
+				</ul>
+			</div>
+		</div>
+
+		<div style="margin-bottom: 240px;">
+			<div class="state">
+				<div class="state-default">State 1</div>
+				<ul class="state-list">
+					<li class="state-item" data-value="">State 1</li>
+					<li class="state-item" data-value="">State 2 wide</li>
+					<li class="state-item" data-value="">State 3</li>
+					<li class="state-item" data-value="">State 4</li>
+				</ul>
+			</div>
+
+			<div class="state">
+				<div class="state-default">State 1</div>
+				<ul class="state-list" style="display:block;">
+					<li class="state-item" data-value="">State 1</li>
+					<li class="state-item" data-value="">State 2 wide</li>
+					<li class="state-item" data-value="">State 3</li>
+					<li class="state-item" data-value="">State 4</li>
+				</ul>
+			</div>
+		</div>
+		
+		<h2>Labels</h2>
+		<div style="margin-bottom: 80px;">
+			<span class="label">Default</span>
+			<span class="label label-primary">Recommended</span>
+			<span class="label label-success">Success</span>
+			<span class="label label-low">Low priority</span>
+			<span class="label label-warning">Normal priority</span>
+			<span class="label label-danger">High priority</span>
+		</div>
+
+		<h2>Labels in Heading</h2>
+		<div style="margin-bottom: 80px;">
+			<h1>
+				Heading <span class="label label-danger">New</span>
+			</h1>
+			<h2>
+				Heading <span class="label label-danger">New</span>
+			</h2>
+			<h3>
+				Heading <span class="label label-danger">New</span>
+			</h3>
+			<h4>
+				Heading <span class="label label-danger">New</span>
+			</h4>
+			<h5>
+				Heading <span class="label label-danger">New</span>
+			</h5>
+		</div>
+
+		<h2>Badges</h2>
+		<div style="margin-bottom: 80px;">
+			<p>
+				<a href="#">Inbox <span class="badge">42</span></a>
+			</p>
+			<p>
+				<button type="button">
+					Messages <span class="badge">4</span>
+				</button>
+			</p>
+		</div>
+
+		<h2>Tags</h2>
+		<div style="margin-bottom: 120px;">
+			<span class="tag">Dismissable</span>
+			<span class="tag tag-y">Dismissable</span>
+			<span class="tag tag-p">Dismissable</span>
+			<span class="tag tag-g">Dismissable</span>
+			<span class="tag tag-closeable">Dismissable closeable</span>
+			<span class="tag tag-y tag-closeable">Dismissable closeable</span>
+		</div>
+
+
+		<h1>Modal</h1>
+		<h2>Tooltips</h2>
+
+		<div style="position:relative;height: 100px;">
+			<div class="tooltip">
+				<div class="tooltip-title">This is title</div>
+				<div class="tooltip-text">This is some wide description that requires two strokes.</div>
+			</div>
+		</div>
+
+		<div style="position:relative;height: 100px;">
+			<div class="tooltip tooltip-bottom">
+				<div class="tooltip-title">This is title</div>
+				<div class="tooltip-text">This is some wide description that requires two strokes.</div>
+			</div>
+		</div>
+
+
+		<h2>Dialog</h2>
+
+		<div style="position:relative;margin-bottom: 80px;">
+			<div class="dialog">
+				<div class="dialog-content">
+					<div class="dialog-title">Label text</div>
+					<div class="dialog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in rhoncus nunc. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut mi velit, facilisis vel facilisis eu, interdum feugiat nibh. Aenean consectetur ut mi molestie laoreet.</div>
+				</div>
+				<div class="dialog-actions">
+					<span class="action">Cancel</span>
+					<span class="action">Footer Button</span>
+				</div>
+			</div>
+		</div>
+
+
+		<h2>Info</h2>
+
+		<div style="position:relative;margin-bottom: 80px;">
+			<div class="info info-attention">Attention message</div>
+			<div class="info">Info message</div>
+			<div class="info info-error">Error message</div>
+			<div class="info info-success">Success message</div>
+		</div>
+
+		<h2>Contact form</h2>
+
+		<div style="position:relative;margin-bottom: 80px;">
+			<div class="modal-contact">
+				<form action="">
+					<div class="modal-contact-title">Contact us</div>
+					<div class="modal-contact-content">
+						<div class="form-field modal-contact-field">
+							<label class="form-field-label" for="name">Name</label>
+							<input class="form-field-input" name="name" type="text">
+						</div>
+						<div class="form-field modal-contact-field">
+							<label class="form-field-label" for="email">Email</label>
+							<input class="form-field-input" name="email" type="text">
+						</div>
+						<div class="form-field">
+							<label class="form-field-label" for="comment">Comment</label>
+							<textarea class="form-field-textarea" name="comment"></textarea>
+						</div>
+					</div>
+					<div class="modal-contact-actions">
+						<button type="submit" class="button green">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<h2>Search</h2>
+
+		<div style="position:relative;margin-bottom:80px;height:340px;">
+			<div class="search">
+				<input class="search-input" type="text" placeholder="Searching Text">
+				<div class="search-cancel"></div>
+				<div class="search-supply">
+					<div>
+						<div class="search-supply-category">
+							<div class="search-supply-category-title">Title 1</div>
+							<ul class="search-supply-list">
+								<li class="search-supply-item">
+									<a href="#" class="search-supply-link">Result 1</a>
+								</li>
+								<li class="search-supply-item">
+									<a href="#" class="search-supply-link">Result 2</a>
+								</li>
+								<li class="search-supply-item">
+									<a href="#" class="search-supply-link">Result 3</a>
+								</li>
+							</ul>
+						</div>
+						<div class="search-supply-category">
+							<div class="search-supply-category-title">Title 2</div>
+							<ul class="search-supply-list">
+								<li class="search-supply-item">
+									<a href="#" class="search-supply-link">Result 1</a>
+								</li>
+								<li class="search-supply-item">
+									<a href="#" class="search-supply-link">Result 2</a>
+								</li>
+								<li class="search-supply-item">
+									<a href="#" class="search-supply-link">Result 3</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="search-supply-actions">
+						<button>See all Results</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h2>Comment</h2>
+
+		<div style="position:relative;margin-bottom:80px;">
+			<div class="modal-comment">
+				<div class="modal-comment-content">
+					<div class="modal-comment-title">Add a comment</div>
+					<textarea class="modal-comment-textarea" name=""></textarea>
+					<div class="modal-comment-length">11/140</div>
+				</div>
+				<div class="modal-comment-actions">
+					<span class="action">Cancel</span>
+					<span class="action">Save</span>
+				</div>
+			</div>
+		</div>
+
+		<h2>Wells</h2>
+
+		<div style="position:relative;margin-bottom:20px;">
+			<div class="wells">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+				in rhoncus nunc. Nulla facilisi. Cum sociis natoque penatibus
+				et magnis dis parturient montes, nascetur ridiculus mus. Ut mi
+				velit, facilisis vel facilisis eu, interdum feugiat nibh.
+				Aenean consectetur ut mi molestie laoreet.
+			</div>
+		</div>
+		<div style="position:relative;margin-bottom:120px;">
+			<div class="wells wells-sm">A small well.</div>
+		</div>
+
+
+
+		<h1>NAVIGATION</h1>
+		<h2>Header</h2>
+
+		<div style="position:relative;margin-bottom: 80px;width: 717px;">
+			<header class="header">
+				<nav class="header-nav">
+					<div class="header-logo">
+						<a href="#" class="header-logo-link">logo</a>
+					</div>
+					<ul class="header-nav-list">
+						<li class="header-nav-item">
+							<a class="header-nav-link" href="#">
+								details
+							</a>
+						</li>
+						<li class="header-nav-item">
+							<a class="header-nav-link" href="#">
+								how to enter
+							</a>
+						</li>
+						<li class="header-nav-item">
+							<a class="header-nav-link" href="#">
+								faqs
+							</a>
+						</li>
+					</ul>
+					<div class="header-nav-right">
+						<div class="header-nav-search"></div>
+						<ul class="header-nav-langs-list">
+							<li class="header-nav-langs-item">
+								<a href="#" class="header-nav-langs-link header-nav-langs-link-active">En</a>
+							</li>
+							<li class="header-nav-langs-item">
+								<a href="#" class="header-nav-langs-link">Esp</a>
+							</li>
+						</ul>
+						<button class="header-nav-signin">Sign In</button>
+					</div>
+				</nav>
+				<nav class="header-subnav">
+					<ul class="header-subnav-list">
+						<li class="header-subnav-item">
+							<a class="header-subnav-link" href="#">
+								Details
+							</a>
+						</li>
+						<li class="header-subnav-item">
+							<a class="header-subnav-link" href="#">
+								How to enter
+							</a>
+						</li>
+						<li class="header-subnav-item">
+							<a class="header-subnav-link" href="#">
+								FAQs
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+		<h2>Cascading menu</h2>
+
+		<div style="position:relative;margin-bottom: 80px;height: 300px;">
+			<ul class="nav-list">
+				<li class="nav-item">
+					<a href="#" class="nav-link">DETAILS</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">HOW TO ENTER</a>
+					<ul class="menu-list">
+						<li class="menu-item">
+							<a href="#" class="menu-link">Normal</a>
+						</li>
+						<li class="menu-item menu-item-submenu">
+							<a href="#" class="menu-link">With submenu</a>
+							<ul class="submenu-list">
+								<li class="menu-item">
+									<a href="#" class="menu-link">Normal</a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link">Normal</a>
+								</li>
+								<li class="menu-item menu-item-disabled">
+									<a href="#" class="menu-link">Diasabled</a>
+								</li>
+								<li class="menu-item menu-item-submenu">
+									<a href="#" class="menu-link">Normal</a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link">Normal</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-disabled">
+							<a href="#" class="menu-link">Diasabled</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Normal</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Normal</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">FAQS</a>
+				</li>
+			</ul>
+		</div>
+
+		<h2>Contextual menu</h2>
+
+		<div style="position:relative;margin-bottom:80px;height:180px;">
+			<ul class="context-list">
+				<li class="context-item">
+					<a href="#" class="context-link">Normal</a>
+				</li>
+				<li class="context-separator"></li>
+				<li class="context-item">
+					<a href="#" class="context-link">Hover/Selected</a>
+				</li>
+				<li class="context-item context-item-disabled">
+					<a href="#" class="context-link">Diasabled</a>
+				</li>
+				<li class="context-separator"></li>
+				<li class="context-item">
+					<a href="#" class="context-link">Normal</a>
+				</li>
+				<li class="context-item">
+					<a href="#" class="context-link">Normal</a>
+				</li>
+			</ul>
+		</div>
+
+		<h2>Breadcrumbs</h2>
+
+		<div style="margin-bottom:80px;">
+			<div class="breadcrumbs">
+				<a href="#" class="breadcrumbs-link">Home</a> /
+				<a href="#" class="breadcrumbs-link">Second Item</a> /
+				<a href="#" class="breadcrumbs-link">Third Item</a> /
+				<a href="#" class="breadcrumbs-link">Fourth Item</a>
+			</div>
+		</div>
+
+		<h2>Pagination</h2>
+
+		<div style="margin-bottom:120px;">
+			<div class="pagination-list">
+				<a href="#" class="pagination-prev"></a>
+				<a href="#" class="pagination-item">1</a>
+				<a href="#" class="pagination-item pagination-item-active">2</a>
+				<a href="#" class="pagination-item">3</a>
+				<a href="#" class="pagination-item">4</a>
+				<span class="pagination-dots">...</span>
+				<a href="#" class="pagination-item">47</a>
+				<a href="#" class="pagination-next"></a>
+				<a href="#" class="pagination-last">Last</a>
+			</div>
+		</div>
+
+
+
+		<h1>Information Blocks</h1>
+		<h2>Cards</h2>
+
+		<div style="margin-bottom:80px;">
+			<div class="card-product">
+				<div class="card-product-image">
+					<img src="http://casaydiseno.com/wp-content/uploads/2015/07/deco-foto-portada-oto%C3%B1o.jpg" class="card-product-img">
+				</div>
+				<div class="card-product-text">
+					<div class="card-product-title">Card Title</div>
+					<div class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tortor enim, sit amet aliquam leo sagittis eget. Maecenas facilisis maximus sem.</div>
+				</div>
+				<div class="card-product-actions">
+					<a href="#" class="action">More</a>
+				</div>
+			</div>
+		</div>
+
+		<div style="margin-bottom:80px;">
+			<div class="card-person" style="background-image:url(http://www.ywcaquincy.org/atf/cf/{03B5093C-B7D4-4336-98B0-3C49E7172DF8}/financial-literacy.jpg);">
+				<div class="card-person-text">
+					<div class="card-person-title">Title goes here</div>
+					<div class="card-person-subtitle">Subtitle here</div>
+					<div class="card-person-actions">
+						<a href="#" class="action">Button 1</a>
+						<a href="#" class="action">Button 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div style="margin-bottom:80px;">
+			<div class="card-event">
+				<div class="card-event-header">
+					<div class="card-event-header-title">Card Title</div>
+					<div class="card-event-header-subtitle">Card Subtitle</div>
+					<div class="card-event-header-actions">
+						<a href="#" class="action">Share</a>
+						<a href="#" class="action">Edit</a>
+					</div>
+					<div class="card-event-header-date">12.12.2017</div>
+				</div>
+				<div class="card-event-body">
+					<div class="card-event-body-title">
+						<div class="card-event-body-title-ico" 
+							style="background-image:url(../build/img/icon-info.svg);">
+						</div>
+						Information
+					</div>
+					<div class="card-event-body-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Donec luctus tortor enim, sit amet aliquam leo sagittis eget.
+					</div>
+				</div>
+				<div class="card-event-footer">
+					<div class="card-event-footer-ico"
+						style="background-image:url(../build/img/icon-info.svg);">
+					</div>
+					<button class="card-event-footer-button">Test</button>
+				</div>
+			</div>
+		</div>
+
+		<div style="margin-bottom:80px;">
+			<div class="card-product2">
+				<div class="card-product2-image">
+					<img src="http://casaydiseno.com/wp-content/uploads/2015/07/deco-foto-portada-oto%C3%B1o.jpg" 
+						 class="card-product2-img">
+				</div>
+				<div class="card-product2-content">
+					<div class="card-product2-title">
+						Card Title
+						<div class="card-product2-title-menu">
+							<div class="context-menu-button context-menu-button-dark"></div>
+						</div>
+					</div>
+					<div class="card-product2-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing
+						elit. Donec luctus tortor enim, sit amet aliquam leo
+						sagittis eget. Maecenas facilisis maximus sem.Lorem
+						ipsum dolor sit amet, consectetur adipiscing elit.
+						Donec luctus tortor enim, sit amet aliquam leo
+						sagittis eget.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h2>Sheets</h2>
+		
+		<div style="margin-bottom:80px;">
+			<table class="table">
+				<col class="table-col-title" />
+				<col class="table-col-date" />
+				<col class="table-col-information" />
+				<tr>
+					<th class="table-th table-td-title">Title</th>
+					<th class="table-th table-td-date">Date</th>
+					<th class="table-th table-td-information">Some information</th>
+				</tr>
+				<tr>
+					<td class="table-td table-td-title">Table cell information</td>
+					<td class="table-td table-td-date">12.11.2017</td>
+					<td class="table-td table-td-information">Big big information</td>
+				</tr>
+				<tr>
+					<td class="table-td table-td-title">Table cell information</td>
+					<td class="table-td table-td-date">12.11.2017</td>
+					<td class="table-td table-td-information">And small</td>
+				</tr>
+				<tr>
+					<td class="table-td table-td-title">Table cell information</td>
+					<td class="table-td table-td-date">12.11.2017</td>
+					<td class="table-td table-td-information">Little</td>
+				</tr>
+				<tr>
+					<td class="table-td table-td-title">Table cell information</td>
+					<td class="table-td table-td-date">12.11.2017</td>
+					<td class="table-td table-td-information">And big again</td>
+				</tr>
+				<tr>
+					<td class="table-td table-td-title">Table cell information</td>
+					<td class="table-td table-td-date">12.11.2017</td>
+					<td class="table-td table-td-information">More text</td>
+				</tr>
+				<tr>
+					<td class="table-td table-td-title">Table cell information</td>
+					<td class="table-td table-td-date">12.11.2017</td>
+					<td class="table-td table-td-information">More more</td>
+				</tr>
+			</table>
+		</div>
+
+		<div style="margin-bottom:80px;">
+			<table class="sheet">
+				<col class="sheet-col-title" />
+				<col class="sheet-col-date" />
+				<tr>
+					<th class="sheet-th sheet-th-title">
+						Title
+						<div class="sheet-th-order"></div>
+					</th>
+					<th class="sheet-th sheet-th-date">Date</th>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+				<tr>
+					<td class="sheet-td sheet-td-title">Table cell information</td>
+					<td class="sheet-td sheet-td-date">12.11.2017</td>
+				</tr>
+			</table>
+		</div>
+
+		<h2>Lists</h2>
+
+		<div style="margin-bottom:80px;">
+			<ul class="task-list">
+				<li class="task-list-item">
+					<div class="task-list-item-title">Title</div>
+					<div class="task-list-item-subtitle">Subtitle</div>
+					<div class="task-list-item-description">
+						Description
+					</div>
+					<div class="task-list-item-time">Time</div>
+					<div class="task-list-item-icon"></div>
+				</li>
+				<li class="task-list-item">
+					<div class="task-list-item-title">Title</div>
+					<div class="task-list-item-subtitle">Subtitle</div>
+					<div class="task-list-item-description">
+						Very very long description comes here. You’ll need dots to h
+					</div>
+					<div class="task-list-item-time">Time</div>
+					<div class="task-list-item-icon"></div>
+				</li>
+				<li class="task-list-item">
+					<div class="task-list-item-title">Title</div>
+					<div class="task-list-item-subtitle">Subtitle</div>
+					<div class="task-list-item-description">
+						Description
+					</div>
+					<div class="task-list-item-time">Time</div>
+					<div class="task-list-item-icon"></div>
+				</li>
+				<li class="task-list-item">
+					<div class="task-list-item-title">Title</div>
+					<div class="task-list-item-subtitle">Subtitle</div>
+					<div class="task-list-item-description">
+						Very very long description comes here. You’ll need dots to …
+					</div>
+					<div class="task-list-item-time">Time</div>
+					<div class="task-list-item-icon"></div>
+				</li>
+			</ul>
+		</div>
+
+		<div style="margin-bottom:80px;">
+			<ul class="task-list2">
+				<li class="task-list2-item">
+					<div class="task-list2-item-image"></div>
+					<div class="task-list2-item-title">Title</div>
+					<div class="task-list2-item-description">
+						Description
+					</div>
+					<div class="task-list2-item-time">Time</div>
+					<div class="task-list2-item-menu">
+						<div class="context-menu-button"></div>
+					</div>
+				</li>
+				<li class="task-list2-item">
+					<div class="task-list2-item-image"></div>
+					<div class="task-list2-item-title">Title</div>
+					<div class="task-list2-item-description">
+						Very long description comes here hs
+					</div>
+					<div class="task-list2-item-time">Time</div>
+					<div class="task-list2-item-menu">
+						<div class="context-menu-button"></div>
+					</div>
+				</li>
+				<li class="task-list2-item">
+					<div class="task-list2-item-image"></div>
+					<div class="task-list2-item-title">Title</div>
+					<div class="task-list2-item-description">
+						Description
+					</div>
+					<div class="task-list2-item-time">Time</div>
+					<div class="task-list2-item-menu">
+						<div class="context-menu-button"></div>
+					</div>
+				</li>
+				<li class="task-list2-item">
+					<div class="task-list2-item-image"></div>
+					<div class="task-list2-item-title">Title</div>
+					<div class="task-list2-item-description">
+						Very very long description comes here. You’ll need dots to h
+					</div>
+					<div class="task-list2-item-time">Time</div>
+					<div class="task-list2-item-menu">
+						<div class="context-menu-button"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<h2>Expand Panels</h2>
+
+		<div style="margin-bottom:250px;;">
+			<div class="panel">
+				<div class="panel-head">
+					<div class="panel-head-title">Title</div>
+					<div class="panel-head-text">Text</div>
+					<div class="panel-head-caret"></div>
+				</div>
+				<div class="panel-body">
+					<div class="panel-content">
+						<div class="options-list">
+							<div class="checkbox-item">
+								<input class="checkbox-item-input" type="checkbox" value="None" id="choice1" name="choice1" >
+								<label class="checkbox-item-label" for="choice1" >
+									<span class="checkbox-item-ico"></span>
+									Choice 1
+								</label>
+							</div>
+							<div class="checkbox-item">
+								<input class="checkbox-item-input" type="checkbox" value="None" id="choice2" name="choice2" checked="">
+								<label class="checkbox-item-label" for="choice2" >
+									<span class="checkbox-item-ico"></span>
+									Choice 2
+								</label>
+							</div>
+							<div class="checkbox-item">
+								<input class="checkbox-item-input" type="checkbox" value="None" id="choice3" name="choice3" >
+								<label class="checkbox-item-label" for="choice3" >
+									<span class="checkbox-item-ico"></span>
+									Choice 3
+								</label>
+							</div>
+						</div>
+						<div class="panel-info">
+							<div class="panel-description">Some description <a href="#">with link.</a></div>
+						</div>
+					</div>
+					<div class="panel-actions">
+						<a href="#" class="action">Cancel</a>
+						<a href="#" class="action">Save</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div style="margin-bottom:120px;">
+			<ul class="multilist">
+				<li class="multilist-item">
+					<div class="multilist-item-title">
+						<div class="multilist-item-title-ico"></div>
+						<div class="multilist-item-title-text">Single-line item</div>
+						<div class="multilist-item-title-caret"></div>
+					</div>
+
+					<ul class="multilist-sublist">
+						<li class="multilist-sublist-item">
+							Single-line item 2
+						</li>
+					</ul>
+
+				</li>
+				<li class="multilist-item multilist-item-expanded">
+					<div class="multilist-item-title">
+						<div class="multilist-item-title-ico"></div>
+						<div class="multilist-item-title-text">Single-line item</div>
+						<div class="multilist-item-title-caret"></div>
+					</div>
+
+					<ul class="multilist-sublist">
+						<li class="multilist-sublist-item">
+							Single-line item 2
+						</li>
+					</ul>
+
+				</li>
+				<li class="multilist-item">
+					<div class="multilist-item-title">
+						<div class="multilist-item-title-ico"></div>
+						<div class="multilist-item-title-text">Single-line item</div>
+						<div class="multilist-item-title-caret"></div>
+					</div>
+				</li>
+				<li class="multilist-item">
+					<div class="multilist-item-title">
+						<div class="multilist-item-title-ico"></div>
+						<div class="multilist-item-title-text">Single-line item</div>
+						<div class="multilist-item-title-caret"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<h1>Text Forms</h1>
+
+		<div style="margin-bottom:120px;">
+			<form action="#" class="form">
+				<div class="form-field form-field-disabled">
+					<label class="form-field-label" for="name">Label</label>
+					<input class="form-field-input" id="name" name="name" type="text" placeholder="Disabled" disabled="disabled">
+				</div>
+				<div class="form-field">
+					<label class="form-field-label" for="name">Label</label>
+					<input class="form-field-input" id="name" name="name" type="text" placeholder="Normal State">
+				</div>
+				<div class="form-field">
+					<label class="form-field-label" for="name">Label</label>
+					<input class="form-field-input" id="name" name="name" type="text" value="Active focus">
+				</div>
+				<div class="form-field form-field-requiered">
+					<label class="form-field-label" for="name">Priority Type</label>
+					<input class="form-field-input" id="name" name="name" type="text" placeholder="Requiered field">
+				</div>
+				<div class="form-field form-field-error">
+					<label class="form-field-label" for="name">Label</label>
+					<input class="form-field-input" id="name" name="name" type="text" placeholder="Error State">
+					<div class="form-field-status form-field-status-error">
+						Error message here
+					</div>
+				</div>
+			</form>
+		</div>
+
+
+
+		<h1>Control Elements</h1>
+		<h2>Checkboxes</h2>
+
+		<div style="margin-bottom:80px;">
+			<form action="#" class="form">
+				<div class="checkbox-item">
+					<input class="checkbox-item-input" type="checkbox" value="None" id="chk1" name="chk1" >
+					<label class="checkbox-item-label" for="chk1" >
+						<span class="checkbox-item-ico"></span>
+						Normal
+					</label>
+				</div>
+				<div class="checkbox-item">
+					<input class="checkbox-item-input" type="checkbox" value="None" id="chk2" name="chk2" checked="">
+					<label class="checkbox-item-label" for="chk2" >
+						<span class="checkbox-item-ico"></span>
+						Checked
+					</label>
+				</div>
+				<div class="checkbox-item checkbox-item-disabled">
+					<input class="checkbox-item-input" type="checkbox" value="None" id="chk3" name="chk3" disabled="disabled">
+					<label class="checkbox-item-label" for="chk3" >
+						<span class="checkbox-item-ico"></span>
+						Disabled
+					</label>
+				</div>
+				<div class="checkbox-item checkbox-item-disabled">
+					<input class="checkbox-item-input" type="checkbox" value="None" id="chk4" name="chk4" disabled="disabled" checked="">
+					<label class="checkbox-item-label" for="chk4" >
+						<span class="checkbox-item-ico"></span>
+						Disabled Checked
+					</label>
+				</div>
+			</form>
+		</div>
+
+		<h2>Radiobutton</h2>
+
+		<div style="margin-bottom:80px;">
+			<form action="#" class="form">
+				<div class="radio-item">
+					<input class="radio-item-input" type="radio" value="None" id="rdo1" name="rdo1" >
+					<label class="radio-item-label" for="rdo1" >
+						<span class="radio-item-ico"></span>
+						Normal
+					</label>
+				</div>
+				<div class="radio-item">
+					<input class="radio-item-input" type="radio" value="None" id="rdo2" name="rdo1" checked="">
+					<label class="radio-item-label" for="rdo2" >
+						<span class="radio-item-ico"></span>
+						Checked
+					</label>
+				</div>
+				<div class="radio-item radio-item-disabled">
+					<input class="radio-item-input" type="radio" value="None" id="rdo3" name="rdo3" disabled="disabled">
+					<label class="radio-item-label" for="rdo3" >
+						<span class="radio-item-ico"></span>
+						Disabled
+					</label>
+				</div>
+				<div class="radio-item radio-item-disabled">
+					<input class="radio-item-input" type="radio" value="None" id="rdo4" name="rdo4" disabled="disabled" checked="">
+					<label class="radio-item-label" for="rdo4" >
+						<span class="radio-item-ico"></span>
+						Disabled Checked
+					</label>
+				</div>
+			</form>
+		</div>
+
+		<h2>Slider</h2>
+
+		<div style="margin-bottom:80px;">
+			<form action="#" class="form">
+				<div class="volume-item">
+					<div class="volume-item-wrap">
+						<div class="volume-item-value" style="width:40%;">
+							<div class="volume-item-trigger"></div>
+						</div>
+					</div>
+				</div>
+				<div class="volume-item">
+					<div class="volume-item-wrap">
+						<div class="volume-item-value" style="width:50%;">
+							<div class="volume-item-trigger"></div>
+						</div>
+					</div>
+				</div>
+				<div class="volume-item volume-item-disabled">
+					<div class="volume-item-wrap">
+						<div class="volume-item-value" style="width:60%;">
+							<div class="volume-item-trigger"></div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<h2>Switch</h2>
+
+		<div style="margin-bottom:120px;">
+			<form action="#" class="form">
+				<label class="switch">
+				  <input class="switch-input" type="checkbox">
+				  <div class="switch-slider"></div>
+				</label>
+				<label class="switch">
+				  <input class="switch-input" type="checkbox" checked="">
+				  <div class="switch-slider"></div>
+				</label>
+			</form>
+		</div>
+
+
+		<h1>Progress & activity</h1>
+		<h2>Linear Indicator</h2>
+
+		<div style="margin-bottom:80px;">
+			<div class="progress">
+				<div class="progress-value" style="width:40%;"></div>
+			</div>
+
+			<div class="progress-indeterminate">
+				<div class="progress-indeterminate-line"></div>
+			</div>
+		</div>
+
+		<h2>Circular Indicator</h2>
+
+		<div style="margin-bottom:80px;">
+			<div class="mdl-spinner">
+				<div class="mdl-spinner__layer mdl-spinner__layer-1">
+					<div class="mdl-spinner__circle-clipper mdl-spinner__left">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__gap-patch">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__circle-clipper mdl-spinner__right">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+				</div>
+				<div class="mdl-spinner__layer mdl-spinner__layer-2">
+					<div class="mdl-spinner__circle-clipper mdl-spinner__left">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__gap-patch">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__circle-clipper mdl-spinner__right">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+				</div>
+				<div class="mdl-spinner__layer mdl-spinner__layer-3">
+					<div class="mdl-spinner__circle-clipper mdl-spinner__left">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__gap-patch">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__circle-clipper mdl-spinner__right">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+				</div>
+				<div class="mdl-spinner__layer mdl-spinner__layer-4">
+					<div class="mdl-spinner__circle-clipper mdl-spinner__left">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__gap-patch">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+					<div class="mdl-spinner__circle-clipper mdl-spinner__right">
+						<div class="mdl-spinner__circle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h2>Stepers</h2>
+
+		<div style="margin-bottom:80px;">
+			<div class="steps">
+				<div class="steps-item steps-item-done">
+					<div class="steps-item-ico">1</div>
+					<div class="steps-item-title">Step One</div>
+				</div>
+				<div class="steps-item steps-item-error">
+					<div class="steps-item-ico">2</div>
+					<div class="steps-item-title">
+						Step Two
+						<div class="steps-item-status">Error description</div>
+					</div>
+					
+				</div>
+				<div class="steps-item">
+					<div class="steps-item-ico">3</div>
+					<div class="steps-item-title">Step Three</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
