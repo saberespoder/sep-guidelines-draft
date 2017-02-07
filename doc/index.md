@@ -19,20 +19,18 @@
 ## About
 ![about](img/about.jpg)
 
-This is a guideline of UI components and their use in developing. It's based on Saberespoder company projects and it includes all the elements the company usually uses for web project. The aim is to simplify further web projects development and to make sure all the projects are in the same corporate style. It includes developing files and .sketch file and can be used by developers and designers. 
+This is a guideline of UI components and their use in developing. It's based on SaberEsPoder company projects and it includes all the graphical elements used for web projects. The aim is to simplify further web projects development and to make sure all the projects are in the same corporate style. It includes code snippets and .sketch files that can be used by developers and designers. 
 
-For using in developing just add files from /build path to your project.
-
-For building project use [gulp](http://gulpjs.com/).
+For using these in development just add files from /build path to your project. For building project use [gulp](http://gulpjs.com/).
 
 Please read the license file and provide required references to the company when use the guideline.
 
 ## Colors
 ![colors](img/colors.jpg)
 
-Since this guideline is intended to use in many web projects, the color palette has a wide range of colors so the projects will not look all the same. For main colors you can choose either green — dark gray combination or light green — dark gray/brown combination. It is also possible to use #3E5262 color as a main and green or red for hints like buttons, headers and icons. 
+Since this guideline is intended to be used in many web projects, the color palette has a wide range of colors so the projects will not look all the same. For main colors you can choose either a combination of green — dark gray or light green — dark gray/brown combination. It is also possible to use #3E5262 color as a main color and green or red for hints like buttons, headers and icons. 
 
-Avoide to use too many colors in one project to help user to divide content and find the main information. In one project choose main and primary colors, no more than three colors for background including footer, hint color, one or two colors for text and no more than two colors for buttons where one is same to hint/main color.
+Avoid to use too many colors in one project to help user to divide content and find the main information. In one project choose main and primary colors, no more than three colors for background including footer, hint color, one or two colors for text and no more than two colors for buttons where one is same to hint/main color.
 For buttons use colors from left column for normal states and colors from right column for hover and pressed states. For colorful buttons it's okey to use same colors for hover and pressed states.
 
 All the colors are added as a document colors in .sketch file.
@@ -69,7 +67,7 @@ Instead of tags it's possible to use classes:
 
 ![links](img/links.jpg)
 
-A Hyperlink indicates that the user is moving to a different page and should not be used instead of field label as it might mislead user.
+A Hyperlink indicates that the user is moving to a different page and should not be used instead of field label as it might mislead the user.
 
 ```HTML
 <a href="#">Link style</a>
@@ -118,7 +116,7 @@ For big buttons use `button-bg` class. Use big buttons only in leading page.
 
 ![dropdown](img/dropdown.jpg)
 
-Dropdown buttons display multiple choices. The button displays the current state and a down arrow. Do not dublicate content in the button (selected choice) and available choices.
+Dropdown buttons display multiple choices. The button displays the current state and a down arrow. Do not duplicate content in the button (selected choice) and available choices.
 
 ```HTML
 <div class="dropdown">
@@ -413,7 +411,7 @@ Use it when it's nesessary to have a parent pages and sub-pages with allowing us
 ## Pagination
 ![pagination](img/pagination.jpg)
 
-Use pagination when it's nesessary to break content or ruduce stress on databases.
+Use pagination when it's nesessary to break content or reduce stress on databases.
 
 Provide large click areas.
 
@@ -735,7 +733,7 @@ Well gives an inset effect.
 ## Checkboxes
 ![checkboxes](img/checkboxes.jpg)
 
-Use checkboxes when user can select none, one or multiply options. 
+Use checkboxes when users can select none, one or multiple options. 
 ```HTML
 <div class="checkbox-item">
 	<input class="checkbox-item-input" type="checkbox" value="None" id="chk1" name="chk1" >
@@ -993,7 +991,7 @@ Styling information you can find [here](http://google.github.io/material-design-
 
 Download Sketch file: https://www.dropbox.com/s/fbfjzhll70dbm1h/SaberespoderGuidline.sketch?dl=0
 
-In my current version of Sketch it has a problem with recognising and using text styles, so there're text styles created and organised in the file but for now for me it's impossible to use it or copy to another file. I'll update .sketch file when this issue will be fixed.
+In my current version of Sketch it has a problem with recognising and using text styles, so there are text styles created and organised in the file but for now for me it's impossible to use it or copy to another file. I'll update .sketch file when this issue will be fixed.
 
 
 
