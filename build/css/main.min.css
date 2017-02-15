@@ -327,7 +327,7 @@ h5,
 a,
 .link,
 .action {
-  color: #2196f3;
+  color: #2196F3;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -343,7 +343,7 @@ a,
   a:hover,
   .link:hover,
   .action:hover {
-    color: #1d4f7d; }
+    color: #1D4F7D; }
   a-disabled,
   .link-disabled {
     color: #bcbbba;
@@ -364,8 +364,8 @@ a,
     width: 0.5em;
     height: 0.5em;
     margin: 0 0.2em;
-    border-bottom: 0.1em solid #2196f3;
-    border-right: 0.1em solid #2196f3;
+    border-bottom: 0.1em solid #2196F3;
+    border-right: 0.1em solid #2196F3;
     vertical-align: 0.1em;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -380,7 +380,7 @@ a,
   .action-prev::before {
     transform: rotate(135deg); }
   .action-next:hover::after, .action-prev:hover::before {
-    border-color: #1d4f7d; }
+    border-color: #1D4F7D; }
   .action-disabled {
     color: #bcbbba;
     cursor: default; }
