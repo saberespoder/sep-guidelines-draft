@@ -14,6 +14,7 @@
 * [Icons](#icons)
 * [Sketch File](#sketch-file)
 * [Landing](#landing)
+* [Useful Links](#useful-links)
 
 
 ## About
@@ -1001,3 +1002,32 @@ In my current version of Sketch it has a problem with recognising and using text
 
 To show how to use the guidline we've created a landing page and sign up form using the elements from guide.
 You can find html pages in /examples folder and design in second page of sketch file.
+
+
+## Useful Links
+
+To simplify further work we've collected different helpful sourses. 
+
+Pattern libraries:
+http://thepatternlibrary.com/
+http://subtlepatterns.com/
+
+
+Icons and simple illustrations:
+https://icons8.com/
+https://material.io/icons/
+https://thenounproject.com/
+
+Work with maps:
+https://snazzymaps.com/
+
+Fonts:
+https://www.fontsquirrel.com/
+http://femmebot.github.io/google-type/
+https://fonts.google.com
+http://www.fontfabric.com/
+
+Colors:
+https://www.materialpalette.com/
+https://kuler.adobe.com/
+http://www.colourlovers.com/
