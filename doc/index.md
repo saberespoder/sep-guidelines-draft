@@ -1048,3 +1048,9 @@ https://www.materialpalette.com/
 https://kuler.adobe.com/
 
 http://www.colourlovers.com/
+
+Photos:
+
+https://unsplash.com/
+
+https://imagefinder.co/
